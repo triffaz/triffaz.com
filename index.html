@@ -8,40 +8,54 @@
       background-color: #000;
       margin: 0;
       padding: 0;
-      text-align: center;
-      color: #fff;
       font-family: Arial, sans-serif;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
     }
+
     img {
-      width: 100%;
       max-width: 700px;
+      width: 100%;
       height: auto;
+      display: block;
+      margin: 0 auto 40px;
     }
+
     a.enter {
-      display: inline-block;
-      margin: 20px auto;
-      padding: 15px 30px;
-      background: #111;
-      color: white;
-      font-size: 18px;
+      padding: 20px 40px;
+      background-color: #111;
+      color: #fff;
+      font-size: 22px;
       text-decoration: none;
-      border: 2px solid white;
-      border-radius: 5px;
+      border: 3px solid white;
+      border-radius: 8px;
+      text-align: center;
+      transition: background-color 0.3s;
     }
+
+    a.enter:hover {
+      background-color: #333;
+    }
+
     footer {
-      margin-top: 40px;
+      margin-top: 50px;
       font-size: 12px;
       color: #aaa;
+      text-align: center;
       padding: 0 20px;
     }
   </style>
 </head>
 <body>
   <img src="triffaz_image.PNG" alt="Triffaz">
-  <a class="enter" href="https://triffaz.onuniverse.com/" target="_blank">ENTER</a>
+  <a class="enter" href="https://triffaz.onuniverse.com" target="_blank">ENTER</a>
   <footer>
-    Copyright © Gianluca Rossi a.k.a. Triffaz 2018 All Rights Reserved.<br>
-    No part of any of these audio tracks and designs may be reproduced without Gianluca Rossi a.k.a. Triffaz’s express consent.
+    Copyright © Gianluca Rossi a.k.a. Triffaz 2018 All Rights Reserved.<br>
+    No part of any of these audio tracks and designs may be reproduced without Gianluca Rossi a.k.a. Triffaz’s express consent.
   </footer>
 </body>
 </html>
